@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2011-2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,65 +19,42 @@ PRODUCT_COPY_FILES := \
     vendor/semc/zeus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/semc/zeus/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/zeus/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/zeus/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/semc/zeus/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/zeus/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/zeus/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/zeus/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/semc/zeus/proprietary/lib/libdll.so:system/lib/libdll.so \
+    vendor/semc/zeus/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/semc/zeus/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/semc/zeus/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/semc/zeus/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/semc/zeus/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/semc/zeus/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+    vendor/semc/zeus/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/semc/zeus/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
+    vendor/semc/zeus/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/zeus/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/semc/zeus/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/semc/zeus/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/semc/zeus/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/semc/zeus/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/zeus/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/zeus/proprietary/lib/libqueue.so:system/lib/libqueue.so \
-    vendor/semc/zeus/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/zeus/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/zeus/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/semc/zeus/proprietary/lib/libuim.so:system/lib/libuim.so \
     vendor/semc/zeus/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/zeus/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/semc/zeus/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/semc/zeus/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/semc/zeus/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/semc/zeus/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/semc/zeus/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/semc/zeus/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/zeus/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
-    vendor/semc/zeus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/semc/zeus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/zeus/proprietary/lib/hw/vendor-camera.semc.so:system/lib/hw/vendor-camera.semc.so \
     vendor/semc/zeus/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/zeus/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-    vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_h264_enc_mc.fw:system/etc/firmware/vidc_720p_h264_enc_mc.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_mp4_dec_mc.fw:system/etc/firmware/vidc_720p_mp4_dec_mc.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_mp4_enc_mc.fw:system/etc/firmware/vidc_720p_mp4_enc_mc.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/semc/zeus/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/zeus/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
+    vendor/semc/zeus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/zeus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/zeus/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/zeus/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeus/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/zeus/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/zeus/proprietary/bin/lidswitchd:system/bin/lidswitchd \
-    vendor/semc/zeus/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/semc/zeus/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/semc/zeus/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/semc/zeus/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/semc/zeus/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/semc/zeus/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/semc/zeus/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/semc/zeus/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/semc/zeus/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/semc/zeus/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/zeus/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/zeus/proprietary/etc/permissions/com.playstation.playstationcertified.xml:system/etc/permissions/com.playstation.playstationcertified.xml \
     vendor/semc/zeus/proprietary/etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml:system/etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml \
     vendor/semc/zeus/proprietary/etc/permissions/com.sony.android.playstationcertified.xml:system/etc/permissions/com.sony.android.playstationcertified.xml \
