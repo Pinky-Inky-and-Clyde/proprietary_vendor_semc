@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/msm7x30-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/msm7x30-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/semc/msm7x30-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/semc/msm7x30-common/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
+    vendor/semc/msm7x30-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/semc/msm7x30-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/msm7x30-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/semc/msm7x30-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -37,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/msm7x30-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/msm7x30-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/semc/msm7x30-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/semc/msm7x30-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/semc/msm7x30-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/semc/msm7x30-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/semc/msm7x30-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
